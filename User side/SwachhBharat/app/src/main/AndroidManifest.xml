@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kaushal.swachhbharat">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TestActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PostComplaintActivity"
+            android:label="Post New Complaint"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login / Register" />
+        <activity
+            android:name=".MyComplaintListActivity"
+            android:label="My Complaints"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PublicPlaceActivity"
+            android:label="Public Place"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UpcomingEventActivity"
+            android:label="Upcoming Events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinishedEventActivity"
+            android:label="Accomplished Events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfileActivity"
+            android:label="Edit Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StateActivity"
+            android:label="State"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CityActivity"
+            android:label="City"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventDetailActivity"
+            android:label="Event Detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventGalleryActivity"
+            android:label="Event Gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>
